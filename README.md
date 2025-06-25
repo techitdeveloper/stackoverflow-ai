@@ -44,3 +44,6 @@ In your terminal do this
 `mix phx.server`
 or
 `iex -S mix phx.server`
+
+## NOTE:
+Once you click the search button, a list of answers will appear, when you click on any of the answers then scroll down to toggle for the Ai re-ranking
