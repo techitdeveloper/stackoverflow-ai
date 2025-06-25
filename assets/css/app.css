@@ -1,0 +1,31 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* This file is for your main application CSS */
+/* Stack Overflow-like styling */
+.answer-content {
+    line-height: 1.6;
+  }
+  
+.answer-content pre {
+    background-color: #f6f8fa;
+    padding: 16px;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin: 12px 0;
+  }
+  
+.answer-content code {
+    background-color: #f6f8fa;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
+  }
+  
+.answer-content blockquote {
+    border-left: 4px solid #ddd;
+    padding-left: 16px;
+    margin: 12px 0;
+    color: #666;
+  }
